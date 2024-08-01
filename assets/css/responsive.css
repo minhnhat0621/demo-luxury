@@ -1,0 +1,266 @@
+:root {
+    --header-navication-bars: 300px;
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .header__information-padding {
+        padding: 0 40px;
+    }
+    .header__information-none {
+        display: none;
+    }
+    .container__header-search-info {
+        display: block;
+    }
+    .container__header-location-text {
+        width: 100%;
+    }
+    .container__header-location-text h1 {
+        font-size: 22px;
+    }
+    .container__header-location-text h3 {
+        font-size: 28px;
+    }
+    .container__header-location-icon {
+        margin-left: -12px;
+        width: 16px;
+    }
+    .container__background-margin {
+        margin-top: 45%;
+    }
+    
+    /* Background */
+    .container__background-span--fontSize {
+        font-size: 19px;
+        margin: 0 -30px;
+        text-align: center;
+    }
+    .container__background-h2--fontSize {
+        font-size: 34px;
+        line-height: 38px;
+        margin: 0 -30px;
+        text-align: center;
+    }
+    .container__background_item {
+        display: grid;
+        column-gap: 16px;
+        row-gap: 50px;
+        grid-template-columns: auto;
+        overflow: hidden;
+        margin: 0 26px;
+    }
+    .tourDomestic__introduce_world1 {
+        display: grid;
+        row-gap: 20px;
+        column-gap: 12px;
+        padding: 8px 32px;
+        grid-template-columns: auto;
+    }
+    .container__background-img {
+        width: 100%;
+        height: 450px;
+    }
+    .container__background-instruct {
+        display: none;
+    }
+    .container__background_form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .container__background_form-register {
+        padding: 70px 30px 40px 30px;
+        width: auto;
+    }
+    .container__background-register--input {
+        display: block;
+    }
+    .container__background-input {
+        width: 89%;
+    }
+    .container__background-button1 {
+        width: 100%;
+    }
+    .container__background_form-support {
+        padding: 70px 30px 40px 30px;
+        width: auto;
+    }
+    .container__form-support {
+        display: block;
+    }
+    /* Footer */
+    .footer__widget {
+        display: block;
+    }
+    .footer__elementer1,
+    .footer__elementer2,
+    .footer__elementer3 {
+        width: 90%;
+        padding: 20px;
+    }
+    .footer__bottom-selection {
+        display: block;
+    }
+    .footer-text {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px 16px;
+    }
+    .footer-selection--icon {
+        justify-content: center;
+    }
+} 
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .container__header-search-info {
+        display: grid;
+        grid-template-columns: auto auto; 
+        margin: -30px 30px 0;
+    }
+    .container__header-location-text h1 {
+        font-size: 36px;
+    }
+    .container__header-location-text h3 {
+        font-size: 26px;
+    }
+    
+    .grid.wide {
+        width: 100%;
+    }
+    .header__information-none {
+        display: none;
+    }
+    .header__information-padding {
+        padding: 0 70px;
+    }
+    .header__primary-checkbox {
+        position: absolute;
+        left: -3px;
+        width: 40px;
+        height: 40px;
+        /* display: none; */
+    }
+    /* Background */
+    .container__background-margin {
+        margin-top: 140px;
+    }
+    .container__background-span--fontSize {
+        font-size: 18px;
+    }
+    .container__background-h2--fontSize {
+        font-size: 40px;
+    }
+    .container__background_item {
+        display: grid;
+        column-gap: 16px;
+        row-gap: 50px;
+        grid-template-columns: auto auto;
+        overflow: hidden;
+        margin: 0 32px;
+    }
+    .tourDomestic__introduce_world1 {
+        display: grid;
+        row-gap: 20px;
+        column-gap: 12px;
+        padding: 8px 32px;
+        grid-template-columns: auto auto auto;
+    }
+    .container__background-img--obj {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+    .container__background-instruct {
+        display: grid;
+        column-gap: 8px;
+        padding: 32px;
+        grid-template-columns: auto auto;
+        row-gap: 5px;
+    }
+    .background-overlay1,
+    .background-overlay2 {
+        width: 100%;
+    }
+    .container__background--img {
+        width: 100%;
+        height: auto;
+    }
+    .container__background_item1 {
+        column-gap: 340px;
+        padding: 32px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .container__background_form {
+        row-gap: 12px;
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    .container__background_form-register {
+        width: auto;
+        padding: 70px 30px 40px 80px;
+        background-color: #f6f8fb;
+    }
+    /* Footer */
+    .footer__widget {
+        padding: 30px 17px;
+    }
+    .footer__elementer2 {
+        width: 676px;
+    }
+    .footer__elementer-list--ul {
+        column-gap: 16px;
+        padding: 8px;
+    }
+    .footer__elementer1,
+    .footer__elementer2,
+    .footer__elementer3 {
+        padding: 15px;
+    }
+    .footer-text {
+        text-align: center;
+    }
+    .footer__bottom-selection {
+        display: block;
+    }
+    .footer-selection--icon {
+        justify-content: end;
+        padding-right: 32px;
+    }
+}
+
+ 
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__information-none {
+        display: none;
+    }
+    .header__primary {
+        justify-content: end;
+    }
+    .header__primary-account {
+        display: flex;
+        width: auto;
+        height: 100%;
+        align-items: center;
+        padding-right: 32px;
+    }
+    .header__account-icon1 {
+        position: relative;
+        display: block;
+    }
+    .header__account-icon--padding {
+        padding: 0 8px;
+    }
+    .container__header-search {
+        display: inline-block;
+    }
+    .container__search-info-submit {
+        margin: 0;
+        justify-content: center;
+        margin: 0 30px;
+    }
+    .container__header-search-info {
+        margin: -30px 30px 0;
+    }
+}

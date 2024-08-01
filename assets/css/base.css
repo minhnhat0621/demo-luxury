@@ -1,0 +1,61 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --primary-color: #b27a00;
+    --icon-color: #c4d8d0;
+
+    --header-height: 210px;
+    --tourDomestic__introduce-img-height: 228px;
+    --header-search-height: calc(var(--header-height) - var(--tourDomestic__introduce-img-height));
+    --header--sort-bar-height: 46px;
+    column-gap: 16px;
+    padding: 8px 12px;
+    overflow: scroll;
+    grid-template-columns: auto auto auto auto;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        left: -300px; 
+        top: var(----header-height);
+    }
+    to {
+        opacity: 1;
+        left: 0;
+        top: var(----header-height);
+    }
+}
+@keyframes fadeIne {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes inFace {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+       
+    }
+}
+@keyframes conVert {
+    from {
+        background-color: #dea000;
+    }
+    to {
+        background-color: #ea8000;
+    }
+}
