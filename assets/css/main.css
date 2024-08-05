@@ -805,6 +805,7 @@ body {
 .container__background-container {
     position: relative;
     cursor: pointer;
+    width: 25%;
 }
 .container__background-container:hover .container__background_content {
     top: 14%;
@@ -812,10 +813,9 @@ body {
 }
 .background-overlay1 {
     position: absolute;
-    width: 368px;
+    width: 25%;
     height: 99.5%;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
 }
 .background-overlay2 {
     position: absolute;
@@ -828,7 +828,7 @@ body {
     position: relative;
 }
 .container__background--img {
-    width: 368px;
+    width: 100%;
     height: 550px;
 }
 .container__background_content {
@@ -897,7 +897,6 @@ body {
 }
 .container__background_logo {
     display: flex;
-    overflow: scroll;
 }
 .container__background-logo {
     width: 370px;

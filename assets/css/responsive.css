@@ -260,6 +260,9 @@
         justify-content: center;
         margin: 0 30px;
     }
+    .container__search-loca-bottom {
+        margin: 6px;
+    }
     .container__header-search-info {
         margin: -30px 30px 0;
     }
