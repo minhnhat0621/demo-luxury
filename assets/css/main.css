@@ -799,6 +799,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .container__background-instruct {
+    width: 100%;
     display: flex;
     padding-bottom: 30px;
 }
@@ -813,14 +814,14 @@ body {
 }
 .background-overlay1 {
     position: absolute;
-    width: 25%;
-    height: 99.5%;
+    width: 100%;
+    height: auto;
     background: rgba(0, 0, 0, 0.5);
 }
 .background-overlay2 {
     position: absolute;
     width: 368px;
-    height: 99.5%;
+    height: auto;
     background: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
